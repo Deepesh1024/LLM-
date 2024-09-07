@@ -7,7 +7,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.llms import Ollama
 load_dotenv()
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "Make you ollama API key and paste it here "
 conversation_history = []
 prompt1 = ChatPromptTemplate.from_messages(
     [
